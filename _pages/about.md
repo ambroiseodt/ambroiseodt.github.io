@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Huawei Noah's Ark</a>. Paris, France.
 
 profile:
   align: right
-  image: profile_pic_odonnat.jpeg
+  image: prof_pic_odonnat.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Huawei Noah's Ark Lab</p>
-    <p>Paris, France</p>
+    <p>Preparing for Oktoberfest</p>
+    <p>Munich, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
