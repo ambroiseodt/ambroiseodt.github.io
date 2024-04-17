@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Ambroise Odonnat
+      value: Albert Einstein
     - name: Date of Birth
-      value: 3rd April 1999
+      value: 14th March 1879
     - name: Languages
-      value: French, English, German
+      value: English, German
 
 - title: Education
   type: time_table
