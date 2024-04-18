@@ -3,8 +3,8 @@ github_users:
 
 github_repos:
   - romilbert/samformer
-  - ambroiseodt/tsim
   - scikit-adaptation/skada
-  - ambroiseodt/ambroiseodt.github.io
+  - ambroiseodt/tsim
   - ambroiseodt/OTKE
   - ambroiseodt/RL-Differential-Privacy
+  - ambroiseodt/MEEG-Brainstorm
