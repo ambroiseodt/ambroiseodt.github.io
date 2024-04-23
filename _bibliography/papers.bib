@@ -37,7 +37,16 @@
       preview={gdscore.PNG}
 }
 
-
+@article{odonnat2022detection,
+      title={Detection of interictal epileptiform discharges on EEG and MEG}, 
+      author={Odonnat, Ambroise and Nasiotis, Konstantinos and Hill, Eleanor and Ebrahimi Kahou, Samira and Gnassounou, Theo and Zheng, Jiayue and Karthik Enamundram, Naga and Baillet, Sylvain and Dudley, Roy and Cohen-Adad, Julien},
+      journal={QBIN Scientific Day, Best Flash Talk},
+      year={2022},
+      html={https://event.fourwaves.com/fr/qbinscientificday2022/resumes/ad70d0ce-32ea-4a71-9e45-6ec34d772363},
+      pdf={https://cdn.fourwaves.com/static/media/formdata/985f0c64-8ac6-4c6f-a03c-146a28691c26/a2be897c-4143-4f85-831d-192e205cece6.pdf},
+      abstract={Epilepsy is the fourth most common neurological disorder in the world. It affects the central nervous system, leading to abnormal brain activity which causes seizures that are sometimes accompanied by loss of consciousness. Electroencephalography (EEG) and magnetoencephalography (MEG) recordings contain patterns of abnormal brain activity such as interictal epileptiform discharges (IEDs), also known as spikes, that aid in the diagnosis of epilepsy and the identification of the epileptogenic zone. Due to the long recording time, high number of channels, and their noisy nature such recordings are tedious and time consuming to manually analyze. These challenges have motivated the development of automated methods to detect epileptic spikes. Convolutional and Recurrent Neural Networks are among the most frequently chosen architectures for their feature extraction capacities. However, both methods have limited global dependencies perception and recurrent networks lack efficiency because the steps cannot be parallelized. We developed a model based on a transformer architecture. Transformers are a breakthrough in the fields of Natural Language Processing and Computer Vision. They rely on a self-attention mechanism, which enables to differentially weight the significance of each part of the input data enhancing relevant ones while diminishing others. The aim of our framework is to detect spikes on EEG and/or MEG signals while being agnostic to the number of channels. First, the raw data is preprocessed (artifact removal, notch filter, etc.) and split into 2-second segments called ‘trials’ using the open-source Brainstorm software (https://neuroimage.usc.edu/brainstorm/). Spatial filtering is performed before applying the attention mechanism on the feature-channel dimension to focus on relevant channels. Then, embeddings of each time point are created before entering a transformer encoder to perceive global temporal dependencies. The output of the encoder is a highly distinguishable representation of the trial containing spatial and temporal information. The last block is composed of two fully-connected layers separated by a Mish activation function. It splits the data into 10 time windows and gives the probability of presence of a spike for each time window. Preliminary experiments were conducted on a single pediatric participant. A repeated 5-fold cross-validation strategy was used for training and validation. The first experimental results are promising with an accuracy of 90% and a F1-score of 70%. Our model has good potential for spatial and temporal features learning on EEG and MEG signals. The next step is to perform cross-subject spike detection to have a robust framework usable in real-world situations.},
+      selected = {false},
+}
 
 
 
