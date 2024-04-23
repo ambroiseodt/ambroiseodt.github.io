@@ -49,12 +49,12 @@
       "institution": "Ecole des Ponts ParisTech",
       "location": "Paris, France",
       "url": "https://www.uzh.ch/",
-      "area": "Research",
+      "area": "Mathematics and Computer Science",
       "studyType": "M.Sc.",
       "startDate": "1905-01-01",
       "endDate": "1905-01-01",
       "score": "10",
-      "courses": ["Mathematics and Computer Science"]
+      "courses": ["Mathematics, Machine Learning, Computer Science"]
     }
   ],
   "awards": [
