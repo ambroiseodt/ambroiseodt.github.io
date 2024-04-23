@@ -1,70 +1,37 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-
-@InProceedings{pmlr-v238-odonnat24a,
-  title = 	 { Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias },
-  author =       {Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen},
-  booktitle = 	 {Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
-  pages = 	 {595--603},
-  year = 	 {2024},
-  editor = 	 {Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen},
-  volume = 	 {238},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {02--04 May},
-  publisher =    {PMLR},
+@article{odonnat2024leveraging,
+  title={Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias},
+  author={Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen},
+  journal={International Conference on  Artificial Intelligence and Statistics (AISTATS)},
+  year={2024},
+  html={https://proceedings.mlr.press/v238/odonnat24a.html},
   pdf = 	 {https://proceedings.mlr.press/v238/odonnat24a/odonnat24a.pdf},
-  url = 	 {https://proceedings.mlr.press/v238/odonnat24a.html},
-  abstract = 	 { Self-training is a well-known approach for semi-supervised learning. It consists of iteratively assigning pseudo-labels to unlabeled data for which the model is confident and treating them as labeled examples. For neural networks, \texttt{softmax} prediction probabilities are often used as a confidence measure, although they are known to be overconfident, even for wrong predictions. This phenomenon is particularly intensified in the presence of sample selection bias, i.e., when data labeling is subject to some constraints. To address this issue, we propose a novel confidence measure, called $\mathcal{T}$-similarity, built upon the prediction diversity of an ensemble of linear classifiers. We provide the theoretical analysis of our approach by studying stationary points and describing the relationship between the diversity of the individual members and their performance. We empirically demonstrate the benefit of our confidence measure for three different pseudo-labeling policies on classification datasets of various data modalities. The code is available at https://github.com/ambroiseodt/tsim. },
+  abstract = 	 { Self-training is a well-known approach for semi-supervised learning. It consists of iteratively assigning pseudo-labels to unlabeled data for which the model is confident and treating them as labeled examples. For neural networks, softmax prediction probabilities are often used as a confidence measure, although they are known to be overconfident, even for wrong predictions. This phenomenon is particularly intensified in the presence of sample selection bias, i.e., when data labeling is subject to some constraints. To address this issue, we propose a novel confidence measure, called $\mathcal{T}$-similarity, built upon the prediction diversity of an ensemble of linear classifiers. We provide the theoretical analysis of our approach by studying stationary points and describing the relationship between the diversity of the individual members and their performance. We empirically demonstrate the benefit of our confidence measure for three different pseudo-labeling policies on classification datasets of various data modalities. The code is available at https://github.com/ambroiseodt/tsim.},
   selected = {true}
 }
 
-@misc{ilbert2024unlocking,
+@article{ilbert2024unlocking,
       title={Unlocking the Potential of Transformers in Time Series Forecasting with Sharpness-Aware Minimization and Channel-Wise Attention}, 
-      author={Romain Ilbert and Ambroise Odonnat and Vasilii Feofanov and Aladin Virmaux and Giuseppe Paolo and Themis Palpanas and Ievgen Redko},
+      author={Ilbert*, Romain and Odonnat*, Ambroise and Feofanov, Vasilii and Virmaux, Aladin and Paolo, Giuseppe and Palpanas, Themis and Redko, Ievgen},
+      journal={Preprint},
       year={2024},
-      eprint={2402.10198},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      html={https://arxiv.org/abs/2402.10198},
+      pdf={https://arxiv.org/pdf/2402.10198.pdf},
+      abstract={Transformer-based architectures achieved breakthrough performance in natural language processing and computer vision, yet they remain inferior to simpler linear baselines in multivariate long-term forecasting. To better understand this phenomenon, we start by studying a toy linear forecasting problem for which we show that transformers are incapable of converging to their true solution despite their high expressive power. We further identify the attention of transformers as being responsible for this low generalization capacity. Building upon this insight, we propose a shallow lightweight transformer model that successfully escapes bad local minima when optimized with sharpness-aware optimization. We empirically demonstrate that this result extends to all commonly used real-world multivariate time series datasets. In particular, SAMformer surpasses the current state-of-the-art model TSMixer by 14.33% on average, while having ~4 times fewer parameters. The code is available at https://github.com/romilbert/samformer.},
+      selected = {true}
 }
 
-@misc{xie2024leveraging,
+@article{xie2024leveraging,
       title={Leveraging Gradients for Unsupervised Accuracy Estimation under Distribution Shift}, 
-      author={Renchunzi Xie and Ambroise Odonnat and Vasilii Feofanov and Ievgen Redko and Jianfeng Zhang and Bo An},
+      author={Xie, Renchunzi and Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen and Zhang, Jianfeng and An, Bo},
+      journal={Preprint},
       year={2024},
-      eprint={2401.08909},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      html={https://arxiv.org/abs/2401.08909},
+      pdf={https://arxiv.org/pdf/2401.08909.pdf},
+      abstract={Estimating test accuracy without access to the ground-truth test labels under varying test environments is a challenging, yet extremely important problem in the safe deployment of machine learning algorithms. Existing works rely on the information from either the outputs or the extracted features of neural networks to formulate an estimation score correlating with the ground-truth test accuracy. In this paper, we investigate--both empirically and theoretically--how the information provided by the gradients can be predictive of the ground-truth test accuracy even under a distribution shift. Specifically, we use the norm of classification-layer gradients, backpropagated from the cross-entropy loss after only one gradient step over test data. Our key idea is that the model should be adjusted with a higher magnitude of gradients when it does not generalize to the test dataset with a distribution shift. We provide theoretical insights highlighting the main ingredients of such an approach ensuring its empirical success. Extensive experiments conducted on diverse distribution shifts and model structures demonstrate that our method significantly outperforms state-of-the-art algorithms.},
+      selected = {true}
 }
 
 
