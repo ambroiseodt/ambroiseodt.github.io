@@ -31,6 +31,7 @@
   selected={true}
 }
 
+
 @InProceedings{pmlr-v238-odonnat24a,
   title = 	 { Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias },
   author =       {Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen},
@@ -44,7 +45,26 @@
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v238/odonnat24a/odonnat24a.pdf},
   url = 	 {https://proceedings.mlr.press/v238/odonnat24a.html},
-  selected={true}
+  abstract = 	 { Self-training is a well-known approach for semi-supervised learning. It consists of iteratively assigning pseudo-labels to unlabeled data for which the model is confident and treating them as labeled examples. For neural networks, \texttt{softmax} prediction probabilities are often used as a confidence measure, although they are known to be overconfident, even for wrong predictions. This phenomenon is particularly intensified in the presence of sample selection bias, i.e., when data labeling is subject to some constraints. To address this issue, we propose a novel confidence measure, called $\mathcal{T}$-similarity, built upon the prediction diversity of an ensemble of linear classifiers. We provide the theoretical analysis of our approach by studying stationary points and describing the relationship between the diversity of the individual members and their performance. We empirically demonstrate the benefit of our confidence measure for three different pseudo-labeling policies on classification datasets of various data modalities. The code is available at https://github.com/ambroiseodt/tsim. },
+  selected = {true}
+}
+
+@misc{ilbert2024unlocking,
+      title={Unlocking the Potential of Transformers in Time Series Forecasting with Sharpness-Aware Minimization and Channel-Wise Attention}, 
+      author={Romain Ilbert and Ambroise Odonnat and Vasilii Feofanov and Aladin Virmaux and Giuseppe Paolo and Themis Palpanas and Ievgen Redko},
+      year={2024},
+      eprint={2402.10198},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{xie2024leveraging,
+      title={Leveraging Gradients for Unsupervised Accuracy Estimation under Distribution Shift}, 
+      author={Renchunzi Xie and Ambroise Odonnat and Vasilii Feofanov and Ievgen Redko and Jianfeng Zhang and Bo An},
+      year={2024},
+      eprint={2401.08909},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 
 
