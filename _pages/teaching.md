@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 #description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
   <p> I am currently a Teaching Assistant at <a href="https://ecoledesponts.fr/">Ecole des Ponts ParisTech</a> for the following class:</p>
