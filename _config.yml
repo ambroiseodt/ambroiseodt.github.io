@@ -89,9 +89,9 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: M_OS-3kAAAAJ # your Google Scholar ID
+_userid: M_OS-3kAAAAJ # your Google  ID
 scopus_id: # your profile on Scopus
-semanticscholar_id: # your Semantic Scholar ID
+semantic_id: # your Semantic  ID
 spotify_id: # your spotify id
 stackoverflow_id: # your stackoverflow id
 telegram_username: # your Telegram user name
@@ -241,7 +241,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll/scholar
+  - jekyll/
   - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
@@ -289,7 +289,7 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Odonnat, Odonnat*]
+  last_name: [Odonnat]
   first_name: [Ambroise]
 
   style: apa
