@@ -150,7 +150,7 @@
     {% endif %}
     {% if entry.year %}
       {% if entry.additional %}
-        {% capture entryyear %}{{ " " }}{{entry.year}}{{ ", " }}{{entry.additional}}{% endcapture %}
+        {% capture entryyear %}{{ " " }}{{entry.year}}{{ ". " }}{{entry.additional}}{{ "." }}{% endcapture %}
       {% else %}
         {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
       {% endif %}
