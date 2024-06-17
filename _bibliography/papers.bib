@@ -23,7 +23,15 @@
       abstract={Transformer-based architectures achieved breakthrough performance in natural language processing and computer vision, yet they remain inferior to simpler linear baselines in multivariate long-term forecasting. To better understand this phenomenon, we start by studying a toy linear forecasting problem for which we show that transformers are incapable of converging to their true solution despite their high expressive power. We further identify the attention of transformers as being responsible for this low generalization capacity. Building upon this insight, we propose a shallow lightweight transformer model that successfully escapes bad local minima when optimized with sharpness-aware optimization. We empirically demonstrate that this result extends to all commonly used real-world multivariate time series datasets. In particular, SAMformer surpasses the current state-of-the-art model TSMixer by 14.33% on average, while having ~4 times fewer parameters. The code is available at https://github.com/romilbert/samformer.},
       selected = {true},
       preview={transformers.png},
-      code={https://github.com/romilbert/samformer}
+      code={https://github.com/romilbert/samformer},
+bibtex_show={@inproceedings{
+ilbert2024samformer,
+title={{SAM}former: Unlocking the Potential of Transformers in Time Series Forecasting with Sharpness-Aware Minimization and Channel-Wise Attention},
+author={Romain Ilbert and Ambroise Odonnat and Vasilii Feofanov and Aladin Virmaux and Giuseppe Paolo and Themis Palpanas and Ievgen Redko},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://openreview.net/forum?id=8kLzL5QBh2}
+}}
 }
 
 @article{odonnat2024leveraging,
@@ -39,6 +47,20 @@
   arxiv={2310.14814},
   poster={aistats_2024_leveraging_poster.pdf},
   slides={aistats_2024_leveraging_presentation.pdf},
+  bibtex_show={@InProceedings{pmlr-v238-odonnat24a,
+  title = 	 { Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias },
+  author =       {Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen},
+  booktitle = 	 {Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {595--603},
+  year = 	 {2024},
+  editor = 	 {Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen},
+  volume = 	 {238},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {02--04 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v238/odonnat24a/odonnat24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v238/odonnat24a.html}
+  }}
 }
 
 @article{xie2024leveraging,
