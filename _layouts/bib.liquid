@@ -149,7 +149,11 @@
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
+      {% if entry.additional %}
+        {% capture entryyear %}{{ " " }}{{entry.year}}{{ ", " }}{{entry.additional}}{% endcapture %}
+      {% else %}
+        {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
+      {% endif %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
