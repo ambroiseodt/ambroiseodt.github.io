@@ -145,6 +145,9 @@
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
+      {% if entry.award%}
+      {% capture entryyear %}{{ " " }}{{entry.year}}{{ "-" }}<strong>{{entry.award}}</strong>{% endcapture %}
+      {% else %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
