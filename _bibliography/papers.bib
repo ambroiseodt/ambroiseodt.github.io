@@ -10,7 +10,7 @@
       pdf={https://arxiv.org/pdf/2405.18979},
       abstract={Estimating test accuracy without access to the ground-truth test labels under varying test environments is a challenging, yet extremely important problem in the safe deployment of machine learning algorithms. Existing works rely on the information from either the outputs or the extracted features of neural networks to formulate an estimation score correlating with the ground-truth test accuracy. In this paper, we investigate--both empirically and theoretically--how the information provided by the gradients can be predictive of the ground-truth test accuracy even under a distribution shift. Specifically, we use the norm of classification-layer gradients, backpropagated from the cross-entropy loss after only one gradient step over test data. Our key idea is that the model should be adjusted with a higher magnitude of gradients when it does not generalize to the test dataset with a distribution shift. We provide theoretical insights highlighting the main ingredients of such an approach ensuring its empirical success. Extensive experiments conducted on diverse distribution shifts and model structures demonstrate that our method significantly outperforms state-of-the-art algorithms.},
       selected = {true},
-      preview={logo_hands.png}
+      preview={mano_preview.PNG}
 }
 
 @article{ilbert2024unlocking,
@@ -22,7 +22,7 @@
       pdf={https://arxiv.org/pdf/2402.10198.pdf},
       abstract={Transformer-based architectures achieved breakthrough performance in natural language processing and computer vision, yet they remain inferior to simpler linear baselines in multivariate long-term forecasting. To better understand this phenomenon, we start by studying a toy linear forecasting problem for which we show that transformers are incapable of converging to their true solution despite their high expressive power. We further identify the attention of transformers as being responsible for this low generalization capacity. Building upon this insight, we propose a shallow lightweight transformer model that successfully escapes bad local minima when optimized with sharpness-aware optimization. We empirically demonstrate that this result extends to all commonly used real-world multivariate time series datasets. In particular, SAMformer surpasses the current state-of-the-art model TSMixer by 14.33% on average, while having ~4 times fewer parameters. The code is available at https://github.com/romilbert/samformer.},
       selected = {true},
-      preview={transformers.png},
+      preview={samformer_preview.PNG},
       code={https://github.com/romilbert/samformer},
       award={Oral (top 5%)},
       additional={Also presented at CAp 2024 (oral)},
@@ -56,7 +56,7 @@
       pdf={https://arxiv.org/pdf/2401.08909.pdf},
       abstract={Estimating test accuracy without access to the ground-truth test labels under varying test environments is a challenging, yet extremely important problem in the safe deployment of machine learning algorithms. Existing works rely on the information from either the outputs or the extracted features of neural networks to formulate an estimation score correlating with the ground-truth test accuracy. In this paper, we investigate--both empirically and theoretically--how the information provided by the gradients can be predictive of the ground-truth test accuracy even under a distribution shift. Specifically, we use the norm of classification-layer gradients, backpropagated from the cross-entropy loss after only one gradient step over test data. Our key idea is that the model should be adjusted with a higher magnitude of gradients when it does not generalize to the test dataset with a distribution shift. We provide theoretical insights highlighting the main ingredients of such an approach ensuring its empirical success. Extensive experiments conducted on diverse distribution shifts and model structures demonstrate that our method significantly outperforms state-of-the-art algorithms.},
       selected = {true},
-      preview={neural_network.png}
+      preview={gdscore_preview.PNG}
 }
 
 @article{odonnat2022detection,
