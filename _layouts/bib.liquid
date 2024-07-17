@@ -134,9 +134,9 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% if entry.award%}
-        {% capture entrytype %}<strong>{{entry.award}}</strong>{{ ", " }}<em>{{entry.journal}}</em>{% endcapture %} 
+        {% capture entrytype %}<strong>{{entry.award}}</strong>{{ ", " }}<strong><em>{{entry.journal}}</em></strong>{% endcapture %} 
       {% else %}
-        {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+        {% capture entrytype %}<strong><em>{{entry.journal}}</em></strong>{% endcapture %}
       {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
@@ -152,7 +152,7 @@
       {% if entry.additional %}
         {% capture entryyear %}{{ " " }}{{entry.year}}{{ ". " }}{{entry.additional}}{{ "." }}{% endcapture %}
       {% else %}
-        {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
+        {% capture entryyear %}{{ " " }}{{entry.year}}{{ ". " }}{% endcapture %}
       {% endif %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
