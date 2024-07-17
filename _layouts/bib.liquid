@@ -136,7 +136,11 @@
       {% if entry.award%}
         {% capture entrytype %}<strong>{{entry.award}}</strong>{{ ", " }}<strong><em>{{entry.journal}}</em></strong>{% endcapture %} 
       {% else %}
-        {% capture entrytype %}<strong><em>{{entry.journal}}</em></strong>{% endcapture %}
+        {% if entry.preprint%}
+          {% capture entrytype %}<em>{{entry.preprint}}</em>{% endcapture %}
+        {% else %}
+          {% capture entrytype %}<strong><em>{{entry.journal}}</em></strong>{% endcapture %}
+        {% endif %}
       {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
