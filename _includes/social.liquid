@@ -1,3 +1,4 @@
+
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
@@ -53,7 +54,7 @@
   <a href="https://www.flickr.com/{{ site.flickr_id }}" title="Flickr"><i class="fa-brands fa-flickr"></i></a>
 {% endif %}
 {% if site.blogger_url %}
-  <a href="{{ site.blogger_url }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
+  <a href="{{ site.blogger_url }}" title="logB"><img src='assets/img/icon_logb_bw.PNG'/></a>
 {% endif %}
 {% if site.work_url %}
   <a href="{{ site.work_url }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
