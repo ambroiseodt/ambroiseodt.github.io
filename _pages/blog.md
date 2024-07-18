@@ -1,6 +1,6 @@
 ---
 layout: page #cv
-permalink: https://logb-research.github.io/
+bloglink: https://logb-research.github.io/
 title: blog
 nav: true
 new_tab: true
