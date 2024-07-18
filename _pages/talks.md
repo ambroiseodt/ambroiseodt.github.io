@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 #description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 You can find below a list of talks I have been invited to give:
