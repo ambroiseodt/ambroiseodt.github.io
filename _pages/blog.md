@@ -1,6 +1,6 @@
 ---
 layout: page #cv
-permalink= /blog/
+permalink: /blog/
 bloglink: https://logb-research.github.io/
 title: blog
 nav: true
