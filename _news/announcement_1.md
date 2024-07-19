@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Very happy to share our new <a href="https://arxiv.org/pdf/2401.08909"> preprint<a/> on Unsupervised Accuracy Estimation. 📑 :bulb:
+📑 New preprint about Unsupervised Accuracy Estimation: <a href="https://arxiv.org/pdf/2401.08909"> GdScore<a/>. :bulb:
