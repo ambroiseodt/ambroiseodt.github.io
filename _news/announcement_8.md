@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🖥 Participated in <a href="https://github.com/scikit-adaptation/skada">SKADA</a> coding sprint, a library for Domain Adaptation compatible with sklearn and Pytorch. 
+🍕 Coding sprint of <a href="https://github.com/scikit-adaptation/skada">SKADA</a>, an sklearn & PyTorch compatible library for Domain Adaptation. 
