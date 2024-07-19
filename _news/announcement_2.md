@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-01-19 
+date: 2023-10-23 
 inline: true
 related_posts: false
 ---
 
-Our paper <a href="https://proceedings.mlr.press/v238/odonnat24a/odonnat24a.pdf">*Leveraging Ensemble Diversity for Robust Self-Training in the Presence of Sample Selection Bias*</a> has been accepted to <a href="https://virtual.aistats.org/Conferences/2024">AISTATS 2024<a/>. 📑 :trophy:
+📑 New preprint on ensemble learning for robust self-training: <a href="https://arxiv.org/pdf/2310.14814">$\mathcal{T}$-similarity</a>. :bulb:
