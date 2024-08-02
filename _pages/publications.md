@@ -9,7 +9,7 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 <div class="publications">
-Test
+For a complete list, check my <a href="https://scholar.google.com/citations?user=M_OS-3kAAAAJ"> Scholar<a/>.
 {% bibliography %}
 
 </div>
