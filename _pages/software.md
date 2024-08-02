@@ -2,7 +2,7 @@
 layout: page
 permalink: /software/
 title: software
-description: You can find below the software I contributed to. Check my [GitHub](https://github.com/ambroiseodt) for an exhaustive list. #Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: Below you can find the software I contributed to. 
 nav: true
 nav_order: 4
 ---
