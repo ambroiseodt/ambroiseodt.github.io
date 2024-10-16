@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-📑 New preprint on Matrix Norm for Unsupervised Accuracy Estimation: <a href="https://arxiv.org/pdf/2405.18979">MaNo</a>.
+📑 New preprint on generalization under distribution shifts: <a href="https://arxiv.org/pdf/2405.18979">MaNo</a>.
