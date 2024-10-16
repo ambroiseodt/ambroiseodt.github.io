@@ -21,3 +21,5 @@ I am a first-year Ph.D. student between Huawei Noah's Ark Lab & Inria, supervise
 I graduated from [Ecole des Ponts ParisTech](https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech) in 2023 and hold a master's degree from [ENS Paris-Saclay](https://ens-paris-saclay.fr/) in Mathematics, Vision, and Machine Learning ([MVA](https://www.master-mva.com/)). I did my master's thesis in robust self-training under distribution shift at Huawei Noah's Ark Lab under the supervision of [Ievgen Redko](https://ievred.github.io/) and [Vasilii Feofanov](https://www.linkedin.com/in/vasilii-feofanov-70748a1b3?originalSubdomain=fr).
 
 Don't hesitate to reach out for possible collaborations or questions regarding my research!
+
+I maintain a research blog called <a href="https://logb-research.github.io/">logB<a/>  with my friend <a href="https://www.oussamazekri.fr/">Oussama Zekri<a/>. Feel free to check it out 🙃
