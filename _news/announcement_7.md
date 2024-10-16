@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🥳 1 **Oral** paper (top 5%) @ <a href="https://virtual.aistats.org/Conferences/2024">ICML 2024<a/>: <a href="https://arxiv.org/pdf/2402.10198">SAMformer</a>.
+🥳 1 **Oral** paper (top 5%) @ ICML 2024: <a href="https://arxiv.org/pdf/2402.10198">SAMformer</a>.
