@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-📝 Corrector of <a href="https://www.hec.edu/fr/grande-ecole-masters/grande-ecole-master-management/admissions/admission-sur-classes-prepas">HEC/ESSEC Maths entrance exam <a/> for Preparatory Classes students.
+🖋️ Corrector of <a href="https://www.hec.edu/fr/grande-ecole-masters/grande-ecole-master-management/admissions/admission-sur-classes-prepas">HEC/ESSEC Maths entrance exam <a/> for Preparatory Classes students.
