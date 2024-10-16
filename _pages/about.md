@@ -9,7 +9,7 @@ profile:
   image: prof_pic_odonnat.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Visiting TUM in Munich</p>
+    <p>In front of TUM in Munich</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
