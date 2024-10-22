@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student at Huawei Noah's Ark Lab and <a href="https://www.inria.fr/en">Inria</a>. <br\> Jointly supervised by <a href="https://ievred.github.io/">Ievgen Redko</a>, <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a>, <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>.
+subtitle: Ph.D. student at Huawei Noah's Ark Lab and <a href="https://www.inria.fr/en">Inria</a>. <br\> Jointly supervised by <a href="https://ievred.github.io/">Ievgen Redko</a>, <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a> and <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>.
 profile:
   align: right
   image: prof_pic_odonnat.jpg
