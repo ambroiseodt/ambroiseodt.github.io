@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{zekri2024llm,
+      title={Large Language Models as Markov Chains}, 
+      author={Zekri*, Oussama and Odonnat*, Ambroise and Benecheab, Abdelhakim and Bleistein, Linus and Boulle, Nicolas and Redko*, Ievgen},
+      preprint={Preprint},
+      year={2024},
+      arxiv={2410.02724},
+      pdf={https://arxiv.org/pdf/2410.02724},
+      abstract={Large language models (LLMs) have proven to be remarkably efficient, both across a wide range of natural language processing tasks and well beyond them. However, a comprehensive theoretical analysis of the origins of their impressive performance remains elusive. In this paper, we approach this challenging task by drawing an equivalence between generic autoregressive language models with vocabulary of size T and context window of size K and Markov chains defined on a finite state space of size O(T^K). We derive several surprising findings related to the existence of a stationary distribution of Markov chains that capture the inference power of LLMs, their speed of convergence to it, and the influence of the temperature on the latter. We then prove pre-training and in-context generalization bounds and show how the drawn equivalence allows us to enrich their interpretation. Finally, we illustrate our theoretical guarantees with experiments on several recent LLMs to highlight how they capture the behavior observed in practice.
+},
+      selected = {true},
+      preview={llm_as_mc.png},
+}
+
 @article{ilbert2024rmt,
       title={Analysing Multi-Task Regression via Random Matrix Theory with Application to Time Series Forecasting}, 
       author={Ilbert, Romain and Tiomoko, Malik and Louard, Cosme and Odonnat, Ambroise and Feofanov, Vasilii and Plapanas, Themis and Redko, Ievgen},
@@ -65,7 +78,7 @@
       arxiv={2401.08909},
       pdf={https://arxiv.org/pdf/2401.08909.pdf},
       abstract={Estimating test accuracy without access to the ground-truth test labels under varying test environments is a challenging, yet extremely important problem in the safe deployment of machine learning algorithms. Existing works rely on the information from either the outputs or the extracted features of neural networks to formulate an estimation score correlating with the ground-truth test accuracy. In this paper, we investigate--both empirically and theoretically--how the information provided by the gradients can be predictive of the ground-truth test accuracy even under a distribution shift. Specifically, we use the norm of classification-layer gradients, backpropagated from the cross-entropy loss after only one gradient step over test data. Our key idea is that the model should be adjusted with a higher magnitude of gradients when it does not generalize to the test dataset with a distribution shift. We provide theoretical insights highlighting the main ingredients of such an approach ensuring its empirical success. Extensive experiments conducted on diverse distribution shifts and model structures demonstrate that our method significantly outperforms state-of-the-art algorithms.},
-      selected = {true},
+      selected = {false},
       preview={neural_network.png}
 }
 
