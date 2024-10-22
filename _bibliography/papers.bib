@@ -10,7 +10,7 @@
       pdf={https://arxiv.org/pdf/2406.10327},
       abstract={In this paper, we introduce a novel theoretical framework for multi-task regression, applying random matrix theory to provide precise performance estimations, under high-dimensional, non-Gaussian data distributions. We formulate a multi-task optimization problem as a regularization technique to enable single-task models to leverage multi-task learning information. We derive a closed-form solution for multi-task optimization in the context of linear models. Our analysis provides valuable insights by linking the multi-task learning performance to various model statistics such as raw data covariances, signal-generating hyperplanes, noise levels, as well as the size and number of datasets. We finally propose a consistent estimation of training and testing errors, thereby offering a robust foundation for hyperparameter optimization in multi-task regression scenarios. Experimental validations on both synthetic and real-world datasets in regression and multivariate time series forecasting demonstrate improvements on univariate models, incorporating our method into the training loss and thus leveraging multivariate information.},
       selected = {true},
-      preview={logo_ts.png},
+      preview={logo_neurips.png},
 }
 
 @article{xie2024mano,
@@ -22,7 +22,7 @@
       pdf={https://arxiv.org/pdf/2405.18979},
       abstract={Estimating test accuracy without access to the ground-truth test labels under varying test environments is a challenging, yet extremely important problem in the safe deployment of machine learning algorithms. Existing works rely on the information from either the outputs or the extracted features of neural networks to formulate an estimation score correlating with the ground-truth test accuracy. In this paper, we investigate--both empirically and theoretically--how the information provided by the gradients can be predictive of the ground-truth test accuracy even under a distribution shift. Specifically, we use the norm of classification-layer gradients, backpropagated from the cross-entropy loss after only one gradient step over test data. Our key idea is that the model should be adjusted with a higher magnitude of gradients when it does not generalize to the test dataset with a distribution shift. We provide theoretical insights highlighting the main ingredients of such an approach ensuring its empirical success. Extensive experiments conducted on diverse distribution shifts and model structures demonstrate that our method significantly outperforms state-of-the-art algorithms.},
       selected = {true},
-      preview={logo_hands.png}
+      preview={logo_neurips.png}
 }
 
 @article{ilbert2024unlocking,
@@ -50,7 +50,7 @@
       pdf={https://arxiv.org/pdf/2310.14814},
       abstract={Self-training is a well-known approach for semi-supervised learning. It consists of iteratively assigning pseudo-labels to unlabeled data for which the model is confident and treating them as labeled examples. For neural networks, softmax prediction probabilities are often used as a confidence measure, although they are known to be overconfident, even for wrong predictions. This phenomenon is particularly intensified in the presence of sample selection bias, i.e., when data labeling is subject to some constraints. To address this issue, we propose a novel confidence measure, called $\mathcal{T}$-similarity, built upon the prediction diversity of an ensemble of linear classifiers. We provide the theoretical analysis of our approach by studying stationary points and describing the relationship between the diversity of the individual members and their performance. We empirically demonstrate the benefit of our confidence measure for three different pseudo-labeling policies on classification datasets of various data modalities. The code is available at https://github.com/ambroiseodt/tsim.},
       selected={true},
-      preview={diversity.png},
+      preview={logo_aistats.png},
       code={https://github.com/ambroiseodt/tsim},
       poster={aistats_2024_leveraging_poster.pdf},
       slides={Presentation_AISTATS_2024_Generic.pdf},
