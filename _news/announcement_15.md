@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🤗 Officially starting my Ph.D. on transformers and distribution shifts.
+🤗 Officially starting my Ph.D. at Huawei Noah's Ark Lab and Inria.
