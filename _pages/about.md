@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 I am Ambroise Odonnat, a first-year Ph.D. student at Huawei Noah's Ark Lab and Inria working on transformers and distribution shifts.
 
-I leverage various mathematical tools to better understand and empirically improve Transformers in settings where data at test time differ from their training corpus. I am also interested in the optimization of neural networks. 
+I leverage various mathematical tools to better understand and empirically improve Transformers in settings where training and test data distributions differ. I am also interested in the optimization of neural networks. 
 
 Previously, I obtained my master's degree at [ENS Paris-Saclay](https://ens-paris-saclay.fr/) in 2023 from the Mathematics, Vision, and Machine Learning ([MVA](https://www.master-mva.com/)) program. I also hold an engineering degree from [Ecole des Ponts ParisTech](https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech) in mathematics and computer science. 
 
