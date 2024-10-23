@@ -2,7 +2,7 @@
 layout: page
 permalink: /software/
 title: github
-description: Below you can find the software I contributed to. 
+description: The list of the projects I contributed to can be found below
 nav: true
 nav_order: 4
 ---
