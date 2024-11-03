@@ -4,7 +4,7 @@ github_users:
 github_repos:
   - romilbert/samformer
   - scikit-adaptation/skada
+  - facebookresearch/pal
   - ambroiseodt/tsim
   - ambroiseodt/OTKE
   - ambroiseodt/RL-Differential-Privacy
-  - ambroiseodt/MEEG-Brainstorm
