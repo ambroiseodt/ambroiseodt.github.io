@@ -1,9 +1,18 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"arxiv":
+  url: https://arxiv.org/
+
+"neurips":
+  url: https://neurips.cc/
   color: "#00369f"
+  
+"icml":
+  url: https://icml.cc/
+  color: "#92a1cf"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"aistats":
+  url: https://aistats.org/
+  color: "#6495ed"
 
-"Vision":
-  color: "#009f36"
+"qbin":
+  url: https://rbiq-qbin.qc.ca/
+  color: "#ccccff"
