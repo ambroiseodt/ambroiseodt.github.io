@@ -1,18 +1,18 @@
-"arxiv":
+"arXiv":
   url: https://arxiv.org/
 
-"neurips":
+"neurIPS":
   url: https://neurips.cc/
   color: "#00369f"
   
-"icml":
+"ICML":
   url: https://icml.cc/
   color: "#92a1cf"
 
-"aistats":
+"AISTATS":
   url: https://aistats.org/
   color: "#6495ed"
 
-"qbin":
+"QBIN":
   url: https://rbiq-qbin.qc.ca/
   color: "#ccccff"
