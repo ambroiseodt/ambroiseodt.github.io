@@ -1,18 +1,26 @@
 "arXiv":
   url: https://arxiv.org/
 
-"neurIPS":
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#00369f"
+
+"NeurIPS - Spotlight":
   url: https://neurips.cc/
   color: "#00369f"
   
 "ICML":
   url: https://icml.cc/
-  color: "#92a1cf"
+  color: "#5A4FCF"
 
+"ICML - Oral":
+  url: https://icml.cc/
+  color: "#5A4FCF"
+  
 "AISTATS":
   url: https://aistats.org/
   color: "#6495ed"
 
 "QBIN":
   url: https://rbiq-qbin.qc.ca/
-  color: "#ccccff"
+  color: "#6082B6"
