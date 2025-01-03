@@ -1,17 +1,5 @@
 ---
 ---
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
 @article{odonnat2024visu,
       title={A Visual Case Study of the Training Dynamics in Neural Networks}, 
@@ -22,6 +10,8 @@
       pdf={https://arxiv.org/pdf/2410.24050},
       abstract={This paper introduces a visual sandbox designed to explore the training dynamics of a small-scale transformer model, with the embedding dimension constrained to d = 2. This restriction allows for a comprehensive two-dimensional visualization of each layer’s dynamics. Through this approach, we gain insights into training dynamics, circuit transferability, and the causes of loss spikes, including those induced by the high curvature of normalization layers. We propose strategies to mitigate these spikes, demonstrating how good visualization facilitates the design of innovative ideas of practical interest. Additionally, we believe our sandbox could assist theoreticians in assessing essential training dynamics mechanisms and integrating them into future theories. The code is available at https://github.com/facebookresearch/pal.},
       selected = {true},
+      preview={visu.PNG},
+      abbr = {arxiv},
 }
 
 @article{benechehab2024icl,
@@ -33,6 +23,8 @@
       pdf={https://arxiv.org/pdf/2410.11711},
       abstract={The emerging zero-shot capabilities of Large Language Models (LLMs) have led to their applications in areas extending well beyond natural language processing tasks. In reinforcement learning, while LLMs have been extensively used in text-based environments, their integration with continuous state spaces remains understudied. In this paper, we investigate how pre-trained LLMs can be leveraged to predict in context the dynamics of continuous Markov decision processes. We identify handling multivariate data and incorporating the control signal as key challenges that limit the potential of LLMs’ deployment in this setup and propose Disentangled In-Context Learning (DICL) to address them. We present proof-ofconcept applications in two reinforcement learning settings: model-based policy evaluation and data-augmented off-policy reinforcement learning, supported by theoretical analysis of the proposed methods. Our experiments further demonstrate that our approach produces well-calibrated uncertainty estimates. We release the code at https://github.com/abenechehab/dicl.},
       selected = {false},
+      preview = {rl.PNG},
+      abbr = {arxiv},
 }
 
 @article{zekri2024llm,
@@ -46,7 +38,7 @@
       selected = {true},
       preview={llm_preview.PNG},
       slides = {https://drive.google.com/file/d/1P_1mTeOiB2I-6pUNM3mmuENhRKzushy5/view?usp=sharing},
-      abbr={PhysRev}
+      abbr={arxiv},
 }
 
 @article{ilbert2024rmt,
@@ -59,6 +51,7 @@
       abstract={In this paper, we introduce a novel theoretical framework for multi-task regression, applying random matrix theory to provide precise performance estimations, under high-dimensional, non-Gaussian data distributions. We formulate a multi-task optimization problem as a regularization technique to enable single-task models to leverage multi-task learning information. We derive a closed-form solution for multi-task optimization in the context of linear models. Our analysis provides valuable insights by linking the multi-task learning performance to various model statistics such as raw data covariances, signal-generating hyperplanes, noise levels, as well as the size and number of datasets. We finally propose a consistent estimation of training and testing errors, thereby offering a robust foundation for hyperparameter optimization in multi-task regression scenarios. Experimental validations on both synthetic and real-world datasets in regression and multivariate time series forecasting demonstrate improvements on univariate models, incorporating our method into the training loss and thus leveraging multivariate information.},
       selected = {false},
       preview={logo_ts.png},
+      abbr = {neurips},
 }
 
 @article{xie2024mano,
@@ -72,7 +65,8 @@
       selected = {true},
       preview={logo_hands.png},
       poster = {neurips_2024_mano_poster.pdf},
-      code = {https://github.com/Renchunzi-Xie/MaNo}
+      code = {https://github.com/Renchunzi-Xie/MaNo},
+      abbr = {neurips},
 }
 
 @article{ilbert2024unlocking,
@@ -88,7 +82,8 @@
       code={https://github.com/romilbert/samformer},
       poster={icml_2024_samformer_poster.pdf},
       slides={Presentation_ICML_2024_Generic.pdf},
-      pmlr={https://proceedings.mlr.press/v235/ilbert24a.html}
+      pmlr={https://proceedings.mlr.press/v235/ilbert24a.html},
+      abbr = {icml},
 }
 
 @article{odonnat2024leveraging,
@@ -104,7 +99,8 @@
       code={https://github.com/ambroiseodt/tsim},
       poster={aistats_2024_leveraging_poster.pdf},
       slides={Presentation_AISTATS_2024_Generic.pdf},
-      pmlr={https://proceedings.mlr.press/v238/odonnat24a}
+      pmlr={https://proceedings.mlr.press/v238/odonnat24a},
+      abbr = {aistats},
 }
 
 @article{xie2024leveraging,
@@ -116,7 +112,8 @@
       pdf={https://arxiv.org/pdf/2401.08909.pdf},
       abstract={Estimating test accuracy without access to the ground-truth test labels under varying test environments is a challenging, yet extremely important problem in the safe deployment of machine learning algorithms. Existing works rely on the information from either the outputs or the extracted features of neural networks to formulate an estimation score correlating with the ground-truth test accuracy. In this paper, we investigate--both empirically and theoretically--how the information provided by the gradients can be predictive of the ground-truth test accuracy even under a distribution shift. Specifically, we use the norm of classification-layer gradients, backpropagated from the cross-entropy loss after only one gradient step over test data. Our key idea is that the model should be adjusted with a higher magnitude of gradients when it does not generalize to the test dataset with a distribution shift. We provide theoretical insights highlighting the main ingredients of such an approach ensuring its empirical success. Extensive experiments conducted on diverse distribution shifts and model structures demonstrate that our method significantly outperforms state-of-the-art algorithms.},
       selected = {false},
-      preview={neural_network.png}
+      preview={neural_network.png},
+      abbr = {arxiv},
 }
 
 @article{odonnat2022detection,
@@ -130,7 +127,8 @@
       selected = {true},
       preview={eeg_icon.png},
       slides={eeg_detection.pdf},
-      award={Best Flash Talk}
+      award={Best Flash Talk},
+      abbr = {qbin},
 }
 
 
