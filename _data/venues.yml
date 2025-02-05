@@ -7,7 +7,7 @@
 
 "ICASSP":
   url: https://2025.ieeeicassp.org/
-  color: "#9F00C5"
+  color: "#5A4FCF"
   
 "ICML":
   url: https://icml.cc/
@@ -24,3 +24,7 @@
 "QBIN":
   url: https://rbiq-qbin.qc.ca/
   color: "#6082B6"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#D9004C"
