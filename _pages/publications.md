@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: The list of my publications can be found below. The symbol * denotes joint first-authors with equal contributions. 
+description: The list of my publications can be found below (*Equal contributions). 
 nav: true
 nav_order: 1
 ---
