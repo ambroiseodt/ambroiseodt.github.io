@@ -5,6 +5,6 @@ github_repos:
   - romilbert/samformer
   - scikit-adaptation/skada
   - facebookresearch/pal
+  - scikit-adaptation/skada-bench
   - ambroiseodt/tsim
-  - ambroiseodt/RL-Differential-Privacy
   - Renchunzi-Xie/MaNo
