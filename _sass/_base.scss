@@ -700,7 +700,10 @@ footer.sticky-bottom {
 
       .abbr {
         margin-bottom: 0.5rem;
-
+        width: 100%;
+        min-width: 80px;
+        max-width: 200px;
+        
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
