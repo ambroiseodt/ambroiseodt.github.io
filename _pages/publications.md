@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: The symbol * denotes joint first-authors. 
+description: An up-to-date list can be found on my Google Scholar. The symbol * denotes joint first-authors. 
 nav: true
 nav_order: 1
 ---
