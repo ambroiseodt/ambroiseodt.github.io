@@ -9,6 +9,8 @@ nav_order: 1
 
 <!-- _pages/publications.md -->
 
+Test text 
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
