@@ -24,7 +24,7 @@ I am interested in improving the core understanding of Transformers by conductin
 
 I was lucky to receive an ICML Oral Award, a NeurIPS Spotlight Award, and a QBIN Best Flash Talk Award for my research in these areas. On a more amusing (and surprising 🙃) note, one of my recent articles was featured in <a href="https://www.forbes.com/sites/lanceeliot/2024/11/11/revealing-secrets-of-large-language-models-and-generative-ai-via-old-fashioned-markov-chain-mathematics/">Forbes</a>.
 
-I like to collaborate on research projects in a team environment and also enjoy contributing to open-source libraries and communicating about my research. I maintain a research blog, <a href="https://logb-research.github.io/">logB<a/>, and have had the privilege to present my research at leading institutions such as EPFL, ENS Ulm, and Criteo. 
+I enjoy working both with few collaborators and within a larger team, contributing to open-source libraries and communicating about my research. I maintain a research blog, <a href="https://logb-research.github.io/">logB<a/>, and have had the privilege to present my research at leading institutions such as EPFL, ENS Ulm, and Criteo. 
 
 I graduated from [Ecole des Ponts ParisTech](https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech) in 2023 and hold a master's degree from [ENS Paris-Saclay](https://ens-paris-saclay.fr/) in Mathematics, Vision, and Machine Learning ([MVA](https://www.master-mva.com/)).
 
