@@ -15,11 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in machine learning and deep learning in Paris between Huawei Noah's Ark Lab & Inria. I have the honour of being jointly supervised by <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a>, Pr. <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>, and Dr. <a href="https://ievred.github.io/">Ievgen Redko</a>. My research aims to better understand LLMs and transformers, notably under distribution shifts and OOD generalization.
-
-Thanks to all my collaborators, I had the chance to see some of my contributions appear in venues such as NeurIPS, ICLR, ICML, AISTATS, and ICASSP and to receive an ICML Oral Award, a NeurIPS Spotlight Award, and a Best Flash Talk Award at QBIN. On a more amusing (and surprising 🙃) note, one of my recent articles was featured in <a href="https://www.forbes.com/sites/lanceeliot/2024/11/11/revealing-secrets-of-large-language-models-and-generative-ai-via-old-fashioned-markov-chain-mathematics/">Forbes</a>.
-
-I also had the privilege to present my research at leading institutions such as EPFL, ENS Ulm, ENS Lyon, ENS Paris-Saclay, and Criteo. 
+I am a Ph.D. student in machine learning and deep learning in Paris between Huawei Noah's Ark Lab & Inria. I have the honour of being jointly supervised by <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a>, Pr. <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>, and Dr. <a href="https://ievred.github.io/">Ievgen Redko</a>. My research aims to understand better LLMs and transformers, notably under distribution shifts and OOD generalization.
 
 Before the Ph.D., I obtained my master's degree at [ENS Paris-Saclay](https://ens-paris-saclay.fr/) in 2023 from the Mathematics, Vision, and Machine Learning ([MVA](https://www.master-mva.com/)) program. I also hold an engineering degree from [Ecole des Ponts ParisTech](https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech) in mathematics and computer science.
 
