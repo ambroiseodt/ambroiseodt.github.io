@@ -2,13 +2,12 @@
 layout: page
 permalink: /software/
 title: code
-description: The list of the projects I contributed to can be found below.
+description: 
 nav: true
 nav_order: 3
 ---
-For a complete list, see my <a href="https://github.com/ambroiseodt"> GitHub<a/>.
 
-## GitHub users
+An up-to-date list of the open-source projects I contributed to can be found on my <a href="https://github.com/ambroiseodt"> GitHub<a/>.
 
 {% if site.data.repositories.github_users %}
 
