@@ -19,4 +19,3 @@ An up-to-date list can be found on my <a href="https://scholar.google.com/citati
 {% bibliography %}
 
 </div>
-
