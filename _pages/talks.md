@@ -8,6 +8,8 @@ nav_order: 5
 ---
 
 You can find below a list of talks I have been invited to give:
+- 2025/10/31 - Talk @ Cohere on <a href="https://arxiv.org/pdf/2508.20755">benefits of tool use for LLMs</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
+- 2025/09/15 - Talk @ Univ. Lyon 2 on <a href="https://arxiv.org/pdf/2405.18979">MaNo</a>: predicting performance under distribution shifts - [<a href="/assets/pdf/Presentation_MaNo_2025_Lyon_15_09_2025.pdf">slides</a>].
 - 2025/06/19 - Talk @ Cohere Labs on <a href="https://arxiv.org/pdf/2410.02724">LLM as Markov Chains</a>: transformers in LLM - [<a href="https://drive.google.com/file/d/14ZIopSkFM_TEHNRtYfOzjWSfxcHET62k/view?usp=sharing">slides</a>]. 
 - 2025/03/06 - Talk @ IRISA on <a href="https://arxiv.org/pdf/2405.18979">MaNo</a>: predicting performance under distribution shifts - [<a href="/assets/pdf/Presentation_NeurIPS_2024_Obelix_Seminar.pdf">slides</a>]. 
 - 2025/02/26 - Talk @ MLO Group, EPFL on <a href="https://arxiv.org/pdf/2410.02724">LLM as Markov Chains</a>: transformers in LLM - [<a href="https://drive.google.com/file/d/1JDrVP7tcH421A8aQ6KmfgybneoZ_WRhX/view?usp=sharing">slides</a>]. 
