@@ -1,6 +1,10 @@
 "arXiv":
   url: https://arxiv.org/
 
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#DE5D83"
+  
 "NeurIPS":
   url: https://neurips.cc/
   color: "#00369f"
@@ -23,4 +27,4 @@
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#D9004C"
+  color: "#915C83"
