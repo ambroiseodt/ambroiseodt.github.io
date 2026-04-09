@@ -3,7 +3,7 @@
 
 "TMLR":
   url: https://jmlr.org/tmlr/
-  color: "#DE5D83"
+  color: "#915C83"
   
 "NeurIPS":
   url: https://neurips.cc/
@@ -27,4 +27,4 @@
 
 "ICLR":
   url: https://iclr.cc/
-  color: "#915C83"
+  color: "#DE5D83" 
