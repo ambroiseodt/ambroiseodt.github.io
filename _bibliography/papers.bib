@@ -1,6 +1,61 @@
 ---
 ---
 
+@article{odonnat2026vitprobing,
+       title={Layer by layer, module by module: choose both for optimal OOD probing of ViT}, 
+       author={Odonnat, Ambroise and Feofanov, Vasilii and Chapel, Laetitia and Tavenard, Romain and Redko, Ievgen},
+       journal={ICLR Workshop CAO},
+       year={2026},
+       arxiv={2603.05280},
+       pdf={https://arxiv.org/pdf/2603.05280},
+       abstract={Recent studies have observed that intermediate layers of foundation models often yield more discriminative representations than the final layer. While initially attributed to autoregressive pretraining, this phenomenon has also been identified in models trained via supervised and discriminative self-supervised objectives. In this paper, we conduct a comprehensive study to analyze the behavior of intermediate layers in pretrained vision transformers. Through extensive linear probing experiments across a diverse set of image classification benchmarks, we find that distribution shift between pretraining and downstream data is the primary cause of performance degradation in deeper layers. Furthermore, we perform a finegrained analysis at the module level. Our findings reveal that standard probing of transformer block outputs is suboptimal; instead, probing the activation within the feedforward network yields the best performance under significant distribution shift, whereas the normalized output of the multi-head self-attention module is optimal when the shift is weak.},
+       selected = {true},
+       preview={da_preview.PNG},
+       abbr = {ICLR},
+       code = {https://github.com/ambroiseodt/vit-probing},
+ }
+
+@article{houliston2026itl,
+       title={Provable Benefits of In-Tool Learning for Large Language Models}, 
+       author={Houlison*, Sam and Odonnat*, Ambroise and Arnal*, Charles and Cabannes*, Vivien},
+       journal={ICLR Workshop MemAgents},
+       year={2026},
+       arxiv={2508.20755},
+       pdf={https://arxiv.org/pdf/2508.20755},
+       abstract={Tool-augmented language models, equipped with retrieval, memory, or external APIs, are reshaping AI, yet their theoretical advantages remain underexplored. In this paper, we address this question by demonstrating the benefits of in-tool learning (external retrieval) over in-weight learning (memorization) for factual recall. We show that the number of facts a model can memorize solely in its weights is fundamentally limited by its parameter count. In contrast, we prove that tool-use enables unbounded factual recall via a simple and efficient circuit construction. These results are validated in controlled experiments, where tool-using models consistently outperform memorizing ones. We further show that for pretrained large language models, teaching tool-use and general rules is more effective than finetuning facts into memory. Our work provides both a theoretical and empirical foundation, establishing why tool-augmented workflows are not just practical, but provably more scalable.},
+       selected = {true},
+       preview={da_preview.PNG},
+       abbr = {ICLR},
+       code = {https://github.com/ambroiseodt/itl},
+ }
+
+@article{odonnat2026vitplasticity,
+       title={Vision Transformer Finetuning Benefits from Non-Smooth Components}, 
+       author={Odonnat, Ambroise and Chapel, Laetitia and Tavenard, Romain and Redko, Ievgen},
+       preprint={Preprint},
+       year={2026},
+       arxiv={2602.06883},
+       pdf={https://arxiv.org/pdf/2602.06883},
+       abstract={The smoothness of the transformer architecture has been extensively studied in the context of generalization, training stability, and adversarial robustness. However, its role in transfer learning remains poorly understood. In this paper, we analyze the ability of vision transformer components to adapt their outputs to changes in inputs, or, in other words, their plasticity. Defined as an average rate of change, it captures the sensitivity to input perturbation; in particular, a high plasticity implies low smoothness. We demonstrate through theoretical analysis and comprehensive experiments that this perspective provides principled guidance in choosing the components to prioritize during adaptation. A key takeaway for practitioners is that the high plasticity of the attention modules and feedforward layers consistently leads to better finetuning performance. Our findings depart from the prevailing assumption that smoothness is desirable, offering a novel perspective on the functional properties of transformers.},
+       selected = {true},
+       preview={da_preview.PNG},
+       abbr = {arXiv},
+       code = {https://github.com/ambroiseodt/vit-plasticity},
+ }
+
+@article{feng2025blend,
+       title={Optimal Self-Consistency for Efficient Reasoning with Large Language Models}, 
+       author={Feng, Austin and Alonso, Marius and Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen},
+       journal={NeurIPS Workshop Efficient Reasoning},
+       year={2025},
+       arxiv={2511.12309},
+       pdf={https://arxiv.org/pdf/2511.12309},
+       abstract={Self-consistency (SC) is a widely used test-time inference technique for improving performance in chain-of-thought reasoning. It involves generating multiple responses, or “samples" from a large language model (LLM) and selecting the most frequent answer. This procedure can naturally be viewed as a majority vote or empirical mode estimation. Despite its effectiveness, SC is prohibitively expensive at scale when naively applied to datasets, and it lacks a unified theoretical treatment of sample efficiency and scaling behavior. In this paper, we provide the first comprehensive analysis of SC’s scaling behavior and its variants, drawing on mode estimation and voting theory. We derive and empirically validate power law scaling for self-consistency across datasets, and analyze the sample efficiency for fixed-allocation and dynamic-allocation sampling schemes. From these insights, we introduce Blend-ASC, a novel variant of self-consistency that dynamically allocates samples to questions during inference, achieving state-of-the-art sample efficiency. Our approach uses 6.8× fewer samples than vanilla SC on average, outperforming both fixed- and dynamic-allocation SC baselines, thereby demonstrating the superiority of our approach in terms of efficiency. In contrast to existing variants, Blend-ASC is hyperparameter-free and can fit an arbitrary sample budget, ensuring it can be easily applied to any self-consistency application},
+       selected = {true},
+       preview={da_preview.PNG},
+       abbr = {NeurIPS},
+ }
+
 @article{xie2025cauker,
        title={CauKer: Classification Time Series Foundation Models Can Be Pretrained on Synthetic Data Only}, 
        author={Xie, Shifeng and Feofanov, Vasilii and Alonso, Marius and Odonnat, Ambroise and Zhang, Jianfeng and Redko, Ievgen},
