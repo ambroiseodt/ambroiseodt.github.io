@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🍍Presenting 2 papers at ICLR workshops (on <a href="https://arxiv.org/pdf/2508.20755">LLM tool use</a> and <a href="https://arxiv.org/pdf/2603.05280">probing ViT</a>)!
+🍍2 papers accepted at ICLR workshops (on <a href="https://arxiv.org/pdf/2508.20755">LLM tool use</a> and <a href="https://arxiv.org/pdf/2603.05280">probing ViT</a>)!
