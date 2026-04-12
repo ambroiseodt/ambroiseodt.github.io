@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🤗 Invited to give a talk at Mila on <a href="https://arxiv.org/pdf/2602.06883">the role of smoothness in Vision Transformer finetuning<a/>.
+🤗 Invited to give a talk at Mila on <a href="https://arxiv.org/pdf/2602.06883">the role of smoothness in ViT finetuning<a/>.
