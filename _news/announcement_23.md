@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🥳 One paper accepted at NeurIPS workshop on <a href="https://arxiv.org/pdf/2511.12309">LLM efficient reasoning</a> !
+🥳 One paper accepted at NeurIPS workshop on <a href="https://arxiv.org/pdf/2511.12309">LLM efficient reasoning</a>!
