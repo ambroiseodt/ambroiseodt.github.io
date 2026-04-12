@@ -8,10 +8,10 @@ nav_order: 5
 ---
 
 You can find below a list of talks I have been invited to give:
-- 2026/03/27 - Talk @ Mila on <a href="https://arxiv.org/pdf/2602.06883">vision transformers finetuning</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
-- 2026/03/12 - Talk @ Imperial on <a href="https://arxiv.org/pdf/2508.20755">benefits of tool use for LLMs</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
-- 2026/02/19 - Talk @ Kyutai on <a href="https://arxiv.org/pdf/2508.20755">benefits of tool use for LLMs</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
-- 2025/10/31 - Talk @ Cohere on <a href="https://arxiv.org/pdf/2508.20755">benefits of tool use for LLMs</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
+- 2026/03/27 - Talk @ Mila on <a href="https://arxiv.org/pdf/2602.06883">the benefits of non-smooth components for Vision Transformer finetuning</a> - [<a href="/assets/pdf/Presentation_ViT_plasticity_Mila_27_03_2026 (2).pdf">slides</a>]. 
+- 2026/03/12 - Talk @ Imperial on <a href="https://arxiv.org/pdf/2508.20755">the benefits of tool use for LLMs</a> - [<a href="/assets/pdf/Presentation_In_Tool_Learning_Imperial_12_03_2026 (3).pdf">slides</a>]. 
+- 2026/02/19 - Talk @ Kyutai on <a href="https://arxiv.org/pdf/2508.20755">the benefits of tool use for LLMs</a> - [<a href="/assets/pdf/Presentation_In_Tool_Learning_Kyutai_19_02_2026 (6).pdf">slides</a>]. 
+- 2025/10/31 - Talk @ Cohere on <a href="https://arxiv.org/pdf/2508.20755">the benefits of tool use for LLMs</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
 - 2025/09/15 - Talk @ Univ. Lyon 2 on <a href="https://arxiv.org/pdf/2405.18979">MaNo</a>: predicting performance under distribution shifts - [<a href="/assets/pdf/Presentation_MaNo_2025_Lyon_15_09_2025.pdf">slides</a>].
 - 2025/06/19 - Talk @ Cohere Labs on <a href="https://arxiv.org/pdf/2410.02724">LLM as Markov Chains</a>: transformers in LLM - [<a href="https://drive.google.com/file/d/14ZIopSkFM_TEHNRtYfOzjWSfxcHET62k/view?usp=sharing">slides</a>]. 
 - 2025/03/06 - Talk @ IRISA on <a href="https://arxiv.org/pdf/2405.18979">MaNo</a>: predicting performance under distribution shifts - [<a href="/assets/pdf/Presentation_NeurIPS_2024_Obelix_Seminar.pdf">slides</a>]. 
