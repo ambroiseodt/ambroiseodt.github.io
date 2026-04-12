@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 You can find below a list of talks I have been invited to give:
-- 2026/03/27 - Talk @ Mila on <a href="https://arxiv.org/pdf/2602.06883">the benefits of non-smooth components for Vision Transformer finetuning</a> - [<a href="/assets/pdf/Presentation_ViT_plasticity_Mila_27_03_2026 (2).pdf">slides</a>]. 
+- 2026/03/27 - Talk @ Mila on <a href="https://arxiv.org/pdf/2602.06883">the role smoothness in ViT finetuning</a> - [<a href="/assets/pdf/Presentation_ViT_plasticity_Mila_27_03_2026 (2).pdf">slides</a>]. 
 - 2026/03/12 - Talk @ Imperial on <a href="https://arxiv.org/pdf/2508.20755">the benefits of tool use for LLMs</a> - [<a href="/assets/pdf/Presentation_In_Tool_Learning_Imperial_12_03_2026 (3).pdf">slides</a>]. 
 - 2026/02/19 - Talk @ Kyutai on <a href="https://arxiv.org/pdf/2508.20755">the benefits of tool use for LLMs</a> - [<a href="/assets/pdf/Presentation_In_Tool_Learning_Kyutai_19_02_2026 (6).pdf">slides</a>]. 
 - 2025/10/31 - Talk @ Cohere on <a href="https://arxiv.org/pdf/2508.20755">the benefits of tool use for LLMs</a> - [<a href="https://drive.google.com/file/d/1bq3hmEde8ViFNq5W1-tqQLNYyRoD827H/view?usp=sharing">slides</a>]. 
