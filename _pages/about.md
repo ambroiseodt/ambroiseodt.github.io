@@ -16,11 +16,12 @@ social: true # includes social icons at the bottom of the page
 ---
 I am a second-year Ph.D. student in Paris between Huawei Noah's Ark Lab & Inria supervised by <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a>, <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>, and <a href="https://ievred.github.io/">Ievgen Redko</a>. 
 
-I am interested in better understanding transformers by conducting theoretical study and large-scale experiments on:
+My research interests revolve around understanding representation learning and generalization in transformers through theoretical analysis and large-scale experiments on: 
+
 - Large language models (e.g., [here](https://arxiv.org/pdf/2410.02724) and [here](https://arxiv.org/pdf/2508.20755?))
-- Transformers training and finetuning (e.g.,  [here](https://arxiv.org/pdf/2501.02362?) and [here](https://arxiv.org/pdf/2410.24050))
-- Out-of-distribution generalization (e.g., [here](https://proceedings.mlr.press/v238/odonnat24a/odonnat24a.pdf), [here](https://proceedings.neurips.cc/paper_files/paper/2024/file/49abf767d606b72f74ea6009176fafeb-Paper-Conference.pdf) and [here](https://arxiv.org/pdf/2401.08909))
-- Vision transformers and time Series forecasting (see [here](https://arxiv.org/pdf/2602.06883) and [here](https://arxiv.org/pdf/2402.10198))
+- Vision transformers (e.g., [here](https://arxiv.org/pdf/2602.06883) and [here](https://arxiv.org/pdf/2603.05280))
+- Time series foundation models (e.g., [here](https://arxiv.org/pdf/2402.10198))
+- Out-of-distribution generalization (e.g., [here](https://proceedings.neurips.cc/paper_files/paper/2024/file/49abf767d606b72f74ea6009176fafeb-Paper-Conference.pdf) and [here](https://arxiv.org/pdf/2401.08909))
 
 I was lucky to receive an ICML Oral Award, an ICASSP Oral Award, and a QBIN Best Flash Talk Award for my research in these areas. On a more amusing (and surprising 🙃) note, one of my recent articles was featured in <a href="https://www.forbes.com/sites/lanceeliot/2024/11/11/revealing-secrets-of-large-language-models-and-generative-ai-via-old-fashioned-markov-chain-mathematics/">Forbes</a>.
 
