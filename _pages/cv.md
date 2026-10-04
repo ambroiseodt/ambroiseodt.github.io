@@ -1,6 +1,6 @@
 ---
 layout: page #cv
-permalink: /assets/pdf/CV_Ambroise_ODONNAT.pdf #/cv/
+permalink: /assets/pdf/resume_ODONNAT.pdf #/cv/
 title: cv
 nav: true
 new_tab: true
