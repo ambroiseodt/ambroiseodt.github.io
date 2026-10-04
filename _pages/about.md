@@ -14,21 +14,14 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am a second-year Ph.D. student in Paris between Huawei Noah's Ark Lab & Inria supervised by <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a>, <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>, and <a href="https://ievred.github.io/">Ievgen Redko</a>. 
+I am a final-year Ph.D. student in Paris at Huawei Noah's Ark Lab & Inria, supervised by <a href="https://rtavenar.github.io/research/bio.html">Romain Tavenard</a>, <a href="https://people.irisa.fr/Laetitia.Chapel/">Laetitia Chapel</a>, and <a href="https://ievred.github.io/">Ievgen Redko</a>. I will defend in early 2027 and am **looking for Research Scientist / Member of Technical Staff positions**.
 
-My research interests revolve around understanding representation learning and generalization in transformers through theoretical analysis and large-scale experiments on: 
+I study how transformers learn and generalize, combining theory and large-scale experiments on large language models, vision foundation models, and time series. Most of my work revolves around transformer representations, distribution shift, and label-free evaluation. I have also worked on test-time scaling in LLMs and self-improving agents. Next, I want to help build and improve frontier models, notably their reasoning and self-improvement capabilities.
 
-- Large language models (e.g., [here](https://arxiv.org/pdf/2410.02724) and [here](https://arxiv.org/pdf/2508.20755?))
-- Vision transformers (e.g., [here](https://arxiv.org/pdf/2602.06883) and [here](https://arxiv.org/pdf/2603.05280))
-- Time series foundation models (e.g., [here](https://arxiv.org/pdf/2402.10198))
-- Out-of-distribution generalization (e.g., [here](https://proceedings.neurips.cc/paper_files/paper/2024/file/49abf767d606b72f74ea6009176fafeb-Paper-Conference.pdf) and [here](https://arxiv.org/pdf/2401.08909))
+I enjoy working both with a few collaborators and in larger teams, contributing to open-source libraries, and presenting my research, including at EPFL, Mila, Imperial, ENS Ulm, Cohere, and Kyutai. I was lucky to receive an ICML Oral (top 1.5% of submissions) for [SAMformer](https://arxiv.org/pdf/2402.10198). On a more amusing (and surprising 🙃) note, one of my articles was featured in <a href="https://www.forbes.com/sites/lanceeliot/2024/11/11/revealing-secrets-of-large-language-models-and-generative-ai-via-old-fashioned-markov-chain-mathematics/">Forbes</a>.
 
-I was lucky to receive an ICML Oral Award, an ICASSP Oral Award, and a QBIN Best Flash Talk Award for my research in these areas. On a more amusing (and surprising 🙃) note, one of my recent articles was featured in <a href="https://www.forbes.com/sites/lanceeliot/2024/11/11/revealing-secrets-of-large-language-models-and-generative-ai-via-old-fashioned-markov-chain-mathematics/">Forbes</a>.
+I graduated from [École des Ponts ParisTech](https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech) in 2023 and hold a master's degree in Mathematics, Vision, and Machine Learning ([MVA](https://www.master-mva.com/)) from [ENS Paris-Saclay](https://ens-paris-saclay.fr/).
 
-I enjoy working both with a few collaborators and as part of a larger team, contributing to open-source libraries and communicating about my research. I maintain a research blog, <a href="https://logb-research.github.io/">logB<a/>, and have had the privilege of presenting my research at leading institutions such as EPFL, Mila, Imperial, Cohere, and Kyutai. 
-
-I graduated from [Ecole des Ponts ParisTech](https://en.wikipedia.org/wiki/%C3%89cole_des_ponts_ParisTech) in 2023 and hold a master's degree from [ENS Paris-Saclay](https://ens-paris-saclay.fr/) in Mathematics, Vision, and Machine Learning ([MVA](https://www.master-mva.com/)).
-
-Don't hesitate to reach out for possible collaborations or questions regarding my research!
+Feel free to reach out about positions, collaborations, or questions about my research!
 
 
